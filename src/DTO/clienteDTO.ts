@@ -1,5 +1,5 @@
 export default interface ClienteDTO {
-    id_cliente: number,
+    idCliente: number,
     nome: string,
     cpf: string
 }
