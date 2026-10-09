@@ -13,6 +13,7 @@ class ProdutoController extends Produto {
         }
     }
 
+    
     static async alerta(req: Request, res: Response): Promise<Response> {
         try {
             const produtosEmAlerta = await Produto.listarProdutosEmAlerta();
